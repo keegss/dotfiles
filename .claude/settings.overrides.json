@@ -1,0 +1,69 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Task",
+      "WebSearch",
+      "WebFetch",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(claude *)",
+      "Bash(go *)",
+      "Bash(make *)",
+      "mcp__idk__get-idk-sources",
+      "mcp__idk__idk-search",
+      "mcp__idk__idk-fetch",
+      "mcp__bbgithub__bbgithub-issues-get",
+      "mcp__bbgithub__bbgithub-pulls-get",
+      "mcp__bbgithub__bbgithub-pulls-create",
+      "mcp__bbgithub__bbgithub-pulls-list-files",
+      "mcp__bbgithub__bbgithub-pulls-list-review-comments",
+      "mcp__bbgithub__bbgithub-pulls-list-reviews",
+      "mcp__bbgithub__bbgithub-repos-get-content",
+      "mcp__bbgithub__bbgithub-repos-create-fork",
+      "mcp__bbgithub__bbgithub-search-code",
+      "mcp__bbgithub__bbgithub-search-issues-and-pull-requests",
+      "mcp__bbgithub__bbgithub-search-repos",
+      "mcp__drqs__drqs-search",
+      "mcp__drqs__get-drqs-log-notes",
+      "mcp__jira__jira-search-completed-sprints",
+      "mcp__jira__jira-search-issues-active-sprint",
+      "mcp__jira__jira-search-project",
+      "mcp__jira__jira-search-project-issues",
+      "mcp__jira__jira-search-sprint-issues",
+      "mcp__jira__jira-sprint-summary",
+      "Skill(code-review:code-review)",
+      "Skill(pr-review-toolkit:review-pr)",
+      "Skill(claude-md-management:revise-claude-md)",
+      "Skill(claude-md-management:claude-md-improver)"
+    ],
+    "deny": [],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(gh release*)"
+    ]
+  },
+  "model": "opus",
+  "enableAllProjectMcpServers": true,
+  "enabledPlugins": {
+    "code-simplifier@cc-plugins-bb-mirror": true,
+    "commit-commands@cc-plugins-bb-mirror": true,
+    "feature-dev@cc-plugins-bb-mirror": true,
+    "pr-review-toolkit@cc-plugins-bb-mirror": true
+  },
+  "extraKnownMarketplaces": {
+    "cc-plugins-bb-mirror": {
+      "source": {
+        "source": "git",
+        "url": "git@bbgithub.dev.bloomberg.com:devx-ai-tooling/claude-plugins-official.git"
+      }
+    }
+  }
+}
