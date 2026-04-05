@@ -75,3 +75,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$HOME/.local/node-v22.14.0-linux-x64/bin:$PATH"
 export PATH="$HOME/.local/node-v22.14.0-linux-x64/bin:$PATH"
+export PATH="$HOME/.local/go/bin:$PATH"
