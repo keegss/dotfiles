@@ -2,13 +2,13 @@ return {
     "folke/which-key.nvim",
     event = "VeryLazy",
     opts = {
-        delay = 300,
+        triggers_blacklist = {},
     },
     keys = {
         {
             "<leader>?",
             function()
-                require("which-key").show({ global = false })
+                require("which-key").show()
             end,
             desc = "Buffer Local Keymaps (which-key)",
         },
@@ -16,9 +16,9 @@ return {
     config = function(_, opts)
         local wk = require("which-key")
         wk.setup(opts)
-        wk.add({
-            { "<leader>c", group = "code" },
-            { "<leader>f", group = "find" },
+        wk.register({
+            ["<leader>c"] = { name = "code" },
+            ["<leader>f"] = { name = "find" },
         })
     end,
 }
