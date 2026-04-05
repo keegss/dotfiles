@@ -70,6 +70,3 @@ alias gb="git branch"
 alias doco="docker-compose"
 
 export TERM=xterm-256color
-
-. "$HOME/.local/bin/env"
-. "$HOME/.cargo/env"
