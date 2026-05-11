@@ -23,20 +23,20 @@ Review pull requests with deep understanding of:
 
 You will receive:
 - **PR number and repository** (e.g., "my-repo/123")
-- **PR details** from BBGitHub MCP (title, description, author)
+- **PR details** from MCP (title, description, author)
 - **Full diff** of all changes
 - **Existing review comments** and discussion threads
 
 ## Review Process
 
-### Step 1: Fetch PR Context Using BBGitHub MCP
+### Step 1: Fetch PR Context Using Github MCP 
 
 Use MCP tools to gather complete PR information:
 
-- `mcp__bbgithub__bbgithub-pulls-get` - Get PR details (title, description, author)
-- `mcp__bbgithub__bbgithub-pulls-list-files` - Get list of changed files
-- `mcp__bbgithub__bbgithub-pulls-list-review-comments` - Get existing review comments
-- `mcp__bbgithub__bbgithub-repos-get-content` - Read specific file contents at a ref
+- Get PR details (title, description, author)
+- Get list of changed files
+- Get existing review comments
+- Read specific file contents at a ref
 
 ### Step 2: Load Service Context
 
