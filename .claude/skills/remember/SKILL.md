@@ -22,7 +22,7 @@ Store the result as `$DOTFILES` for all steps below. If neither exists, tell the
 
 ## Steps
 
-1. **Format the preference** as a concise bullet point. Add a category tag if applicable: `**[Python]**`, `**[Go]**`, `**[C++]**`, `**[Git]**`, `**[Testing]**`, `**[Bloomberg]**`, `**[Style]**`, etc.
+1. **Format the preference** as a concise bullet point. Add a category tag if applicable: `**[Python]**`, `**[Go]**`, `**[C++]**`, `**[Git]**`, `**[Testing]**`, `**[Style]**`, etc.
 
 2. **Check for duplicates** — read `$DOTFILES/.claude/CLAUDE.md` and verify the preference (or something equivalent) is not already documented anywhere in the file. If it is, tell the user and stop.
 
