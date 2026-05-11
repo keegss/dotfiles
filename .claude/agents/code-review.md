@@ -82,7 +82,7 @@ Code may be LLM-generated. Watch for:
 - Security vulnerabilities
 
 **Security Requirements**:
-- Proper BBID authentication flows
+- Proper authentication flows
 - Input validation for user data
 - SQL injection prevention
 - XSS prevention in React components
