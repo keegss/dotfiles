@@ -28,6 +28,17 @@
     "zenMode.hideLineNumbers": false,
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
+    "vim.overrideCopy": false,
+    // Keys delegated to VS Code instead of VSCodeVim.
+    // NOTE: setting this replaces the extension defaults, so the
+    // defaults we still want (<C-d> to vim, <C-s>/<C-z> to VS Code)
+    // are repeated here.
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [

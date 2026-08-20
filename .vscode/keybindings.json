@@ -6,6 +6,14 @@
     "command": "workbench.action.quickSwitchWindow",
   },
   {
+    "key": "alt+shift+]",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+shift+[",
+    "command": "workbench.action.previousEditor"
+  },
+  {
     "key": "ctrl+shift+a",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
